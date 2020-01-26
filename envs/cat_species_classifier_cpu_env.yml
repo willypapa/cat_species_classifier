@@ -1,0 +1,29 @@
+name: cat_species_classifier
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - tensorflow
+  - matplotlib
+  - seaborn
+  - dask
+  - dask-image
+  - dask-ml
+  - numpy
+  - pandas
+  - scikit-learn
+  - sqlalchemy
+  - sqlite
+  - gdal
+  - ipykernel
+  - nb_conda_kernels
+  - flake8
+  - zarr
+  - einops
+  - regex
+  - scrapy
+  - beautifulsoup4
+  - pip:
+    - keras-tuner
+    - cryptography==2.8

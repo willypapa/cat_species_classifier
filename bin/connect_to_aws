@@ -1,0 +1,3 @@
+# update ssh config file with current IP address, open an ssh connection to
+# jupyter notebook (port 8888 on server) on port 9999 and ssh in
+update_ssh_config && ssh my_ec2_instance

@@ -1,0 +1,8 @@
+# root dir
+project_dir     : &PROJECT_DIR /home/root
+# main data folder
+data_path       : &DATA_PATH !join [*PROJECT_DIR, /data]
+raw_data_path   : &RAW_DATA_PATH !join [*DATA_PATH, /raw]
+int_data_path   : !join [*DATA_PATH, /intermediate]
+proc_data_path  : !join [*DATA_PATH, /processed]
+volumes_data_path : &VOLUMES_DATA_PATH !join [*DATA_PATH, /volumes]
